@@ -4,7 +4,7 @@ import { ChevronUpIcon, ChevronRightIcon } from '@heroicons/react/20/solid';
 
 const questions = [
   { question: 'I\'m new to coding, can I still join?', answer: 'Yes! Hack Club is for people of all backgrounds and skill levels in computer science. New to coding? Attend a workshop (a jam) and walk through the process of creating someting awesome with code!' },
-  { question: 'Do you guys actually hack?', answer: 'That\'s not the type of hacking we are doing here at Hack Club. Instead, we use the word "hack" to describe taking advantage of unintended aspects of systems, or even better, ' },
+  { question: 'Do you guys actually hack?', answer: 'That\'s not the type of hacking we are doing here at Hack Club. Instead, we use hacking to describe using creativity to make cool things with computer science.' },
   { question: 'When and where do meetings take place?', answer: 'For the 2023-24 school year, we meet on Mondays after school from 1:45 to 2:45 PM in Ms. Roche\'s room (219).' },
   { question: 'Does it cost money to join?', answer: 'Not at all! Everything at Hack Club is free!' },
   { question: 'How will we code?', answer: 'We\'ll primarily use Replit to make coding things extra easy!' },
