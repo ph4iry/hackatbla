@@ -8,9 +8,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 const navigation = [
   { name: 'home', href: '/' },
   { name: 'about', href: '/about' },
-  { name: 'join us', href: '#join-us' },
-  { name: 'resources', href: '#resources' },
-  { name: 'the team', href: '#team' },
+  { name: 'join us', href: 'https://docs.google.com/forms/d/e/1FAIpQLSd0lUe-EioGrGLqB2GW0fhZMPGv1oX0jd7EbAsF1ZoQ29Ey6w/viewform?usp=sf_link' },
+  // { name: 'resources', href: '/resources' },
+  // { name: 'the team', href: '#team' },
 ]
 
 export default function Header () {
@@ -66,7 +66,7 @@ export default function Header () {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  className="h-16 -mt-6 w-auto"
+                  className="h-16 -mt-6 w-auto md:hidden"
                   src="/flag-orpheus-top.png"
                   alt=""
                 />
@@ -87,7 +87,7 @@ export default function Header () {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
+                      className="-mx-3 block rounded px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-zinc-700"
                     >
                       {item.name}
                     </a>

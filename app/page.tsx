@@ -1,3 +1,4 @@
+import NextMeeting from '@/components/NextMeeting'
 import Image from 'next/image'
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
               <h1 className="font-bold text-5xl md:text-5xl lg:text-8xl mb-4">hack<span className="text-amber-400">@BLA</span></h1>
               <div className="italic md:text-lg lg:text-2xl">... a Hack Club for Boston Latin Academy students interested in using computer science and programming to make something cool!</div>
             </div>
-            <a href="/about" className="w-full py-2 px-4 md:px-8 bg-gradient-to-br from-yellow-400 to-orange-500 rounded font-bold text-lg md:text-xl md:w-fit hover:ring hover:ring-amber-400 hover:ring-offset-4 hover:ring-offset-zinc-700 transition">learn more</a>
+            <a href="/about" className="block text-center md:text-left w-full py-2 px-4 md:px-8 bg-gradient-to-br from-yellow-400 to-orange-500 rounded font-bold text-lg md:text-xl md:w-fit hover:ring hover:ring-amber-400 hover:ring-offset-4 hover:ring-offset-zinc-700 transition">learn more</a>
           </div>
         </div>
         <div className="shrink-0 self-center grow flex-1">
